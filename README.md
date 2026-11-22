@@ -1,4 +1,3 @@
-# klasifikasi-berita-hoaks
 # 🔍 Klasifikasi Berita Hoaks (Logistic Regression & IndoBERT) dengan Analisis Bias Sumber
 
 Proyek machine learning untuk mengklasifikasikan berita berbahasa Indonesia ke dalam dua kelas, **hoaks** dan **fakta**, menggunakan **TF-IDF + Logistic Regression** dan **IndoBERT**. Proyek ini juga menganalisis **bias sumber**, yaitu kemungkinan model hanya mengenali ciri khas situs asal berita, bukan isi beritanya.
@@ -15,7 +14,6 @@ Proyek machine learning untuk mengklasifikasikan berita berbahasa Indonesia ke d
 |---|---|
 | `app.py` | Aplikasi Streamlit |
 | `requirements.txt` | Daftar library |
-| `Klasifikasi_Berita_Hoaks.ipynb` | Notebook lengkap: data, cleaning, EDA, pelatihan, analisis bias, evaluasi |
 
 Model tidak disimpan di repository ini karena ukurannya (±500 MB). Seluruh model diunduh otomatis dari Hugging Face Hub saat aplikasi dijalankan.
 
